@@ -1,0 +1,6 @@
+<?php
+$animals = ['кот', 'собака', 'попугай'];
+$animals[1] = 'свинка';
+$animals[] = 'хомяк';
+print_r($animals);
+?>

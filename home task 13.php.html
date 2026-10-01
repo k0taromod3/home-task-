@@ -1,0 +1,5 @@
+<?php
+$months = ['январь', 'февраль', 'март', 'апрель'];
+unset($months[2]);
+print_r($months);
+?>
