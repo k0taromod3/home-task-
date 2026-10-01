@@ -1,0 +1,16 @@
+<?php
+function processComment($commentText) {
+    $cleanedText = trim($commentText);
+
+    $length = strlen($cleanedText);
+
+    if ($length < 5) {
+        return "Комментарий слишком короткий";
+    } else {
+        return "Комментарий принят";
+    }
+}
+echo processComment("  Привет!  "); 
+
+echo processComment(" Кот ");
+?>
